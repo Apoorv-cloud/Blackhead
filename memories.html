@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Responsive Image Grid</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="auto1.jpg" style="width:100%">
+    <img src="a1.jpg" style="width:100%">
+    <img src="a2.jpg" style="width:100%">
+    <img src="a3.jpg" style="width:100%">
+    <img src="auto2.jpg" style="width:100%">
+    <img src="a4.jpg" style="width:100%">
+    <img src="a5.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="a6.jpeg" style="width:100%">
+    <img src="auto3.jpg" style="width:100%">
+    <img src="a7.jpg" style="width:100%">
+    <img src="a8.jpg" style="width:100%">
+    <img src="auto4.jpg" style="width:100%">
+    <img src="a9.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="a10.jpg" style="width:100%">
+    <img src="a11.jpeg" style="width:100%">
+    <img src="a12.jpg" style="width:100%">
+    <img src="a13.jpg" style="width:100%">
+    <img src="a14.jpg" style="width:100%">
+    <img src="a15.jpg" style="width:100%">
+    <img src="a16.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="a17.jpg" style="width:100%">
+    <img src="a18.jpg" style="width:100%">
+    <img src="a19.jpg" style="width:100%">
+    <img src="a20.jpg" style="width:100%">
+    <img src="a21.jpeg" style="width:100%">
+    <img src="a22.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
