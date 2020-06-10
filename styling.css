@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-image: url(expo.webp);
-	height: 100hv;
+	height: 100vh;
 	background-size: cover;
 	background-position: center;
 	font-family: sans-serif;
