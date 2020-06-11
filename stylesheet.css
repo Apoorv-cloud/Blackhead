@@ -297,6 +297,21 @@ footer {
 	
 }
 
+::-webkit-scrollbar
+{    
+    width:0;
+}  
+#progressbar
+{
+position: fixed; 
+top: 0; 
+Left: 0; 
+right: 0; 
+width: 15px;
+height: 100%; 
+border-radius: 10px; 
+background: linear-gradient(to top, #fcb045, #fd1d1d, #);
+}
 
 
 
