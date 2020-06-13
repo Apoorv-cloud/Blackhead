@@ -45,6 +45,30 @@ a {
 }
 
 
+#particles-js {
+
+  margin-top: 8px;
+
+  position: relative;
+
+  padding-top: 180px;
+
+  padding-bottom:5%;
+
+  height: 100vh;
+
+  background-image: url(humau.webp);
+
+  background-size: cover;
+
+  background-position: center;
+
+  color: white;
+
+  text-align: center;
+
+}
+
 
 .top-wrapper h1 {
   
@@ -283,36 +307,30 @@ footer {
 
 }
 .form-gap {
-    padding-top: 100px ;
+    padding-top: 100px ;}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	padding-bottom: 100px ;
-	
+
+.about{
+
+   width:100%;
+
+   color: forestgreen;
+
+   font-size: x-large;
+
+   margin-top: 2%;
+
 }
 
-::-webkit-scrollbar
-{    
-    width:0;
-}  
-#progressbar
-{
-position: fixed; 
-top: 0; 
-Left: 0; 
-right: 0; 
-width: 15px;
-height: 100%; 
-border-radius: 10px; 
-background: linear-gradient(to top, #fcb045, #fd1d1d, #);
-}
+.about:hover{
 
+  background-color: forestgreen;
+
+  cursor: pointer;
+
+  color: white;
+
+}
 
 
 
