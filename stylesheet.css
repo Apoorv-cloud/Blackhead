@@ -30,21 +30,6 @@ a {
 }
 
 
-     
-
-
-
-  
-  
-  
-
-  
-
-  
-  
-
-
-
 #particles-js {
 
   margin-top: 8px;
@@ -58,10 +43,9 @@ a {
   height: 100vh;
 
   background-image: url(humau.jpg);
-
-  background-size: cover;
-
-  background-position: center;
+ background-repeat:no-repeat;
+background-size:cover;
+   
 
   color: white;
 
